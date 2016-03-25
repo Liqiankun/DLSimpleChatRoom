@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		631591731C9D58AB00F904AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 631591721C9D58AB00F904AF /* main.m */; };
+		631591761C9D58AB00F904AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 631591751C9D58AB00F904AF /* AppDelegate.m */; };
+		631591791C9D58AB00F904AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631591781C9D58AB00F904AF /* ViewController.m */; };
+		6315917C1C9D58AB00F904AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6315917A1C9D58AB00F904AF /* Main.storyboard */; };
+		6315917E1C9D58AB00F904AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6315917D1C9D58AB00F904AF /* Assets.xcassets */; };
+		631591811C9D58AB00F904AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6315917F1C9D58AB00F904AF /* LaunchScreen.storyboard */; };
+		6315918C1C9D58AB00F904AF /* DLSimpleChatRoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6315918B1C9D58AB00F904AF /* DLSimpleChatRoomTests.m */; };
+		631591971C9D58AB00F904AF /* DLSimpleChatRoomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 631591961C9D58AB00F904AF /* DLSimpleChatRoomUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		631591881C9D58AB00F904AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631591661C9D58AB00F904AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6315916D1C9D58AB00F904AF;
+			remoteInfo = DLSimpleChatRoom;
+		};
+		631591931C9D58AB00F904AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631591661C9D58AB00F904AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6315916D1C9D58AB00F904AF;
+			remoteInfo = DLSimpleChatRoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6315916E1C9D58AB00F904AF /* DLSimpleChatRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLSimpleChatRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		631591721C9D58AB00F904AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		631591741C9D58AB00F904AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		631591751C9D58AB00F904AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		631591771C9D58AB00F904AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		631591781C9D58AB00F904AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6315917B1C9D58AB00F904AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6315917D1C9D58AB00F904AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		631591801C9D58AB00F904AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		631591821C9D58AB00F904AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631591871C9D58AB00F904AF /* DLSimpleChatRoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLSimpleChatRoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6315918B1C9D58AB00F904AF /* DLSimpleChatRoomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLSimpleChatRoomTests.m; sourceTree = "<group>"; };
+		6315918D1C9D58AB00F904AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631591921C9D58AB00F904AF /* DLSimpleChatRoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLSimpleChatRoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		631591961C9D58AB00F904AF /* DLSimpleChatRoomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLSimpleChatRoomUITests.m; sourceTree = "<group>"; };
+		631591981C9D58AB00F904AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6315916B1C9D58AB00F904AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631591841C9D58AB00F904AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6315918F1C9D58AB00F904AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		631591651C9D58AB00F904AF = {
+			isa = PBXGroup;
+			children = (
+				631591701C9D58AB00F904AF /* DLSimpleChatRoom */,
+				6315918A1C9D58AB00F904AF /* DLSimpleChatRoomTests */,
+				631591951C9D58AB00F904AF /* DLSimpleChatRoomUITests */,
+				6315916F1C9D58AB00F904AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6315916F1C9D58AB00F904AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6315916E1C9D58AB00F904AF /* DLSimpleChatRoom.app */,
+				631591871C9D58AB00F904AF /* DLSimpleChatRoomTests.xctest */,
+				631591921C9D58AB00F904AF /* DLSimpleChatRoomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		631591701C9D58AB00F904AF /* DLSimpleChatRoom */ = {
+			isa = PBXGroup;
+			children = (
+				631591741C9D58AB00F904AF /* AppDelegate.h */,
+				631591751C9D58AB00F904AF /* AppDelegate.m */,
+				631591771C9D58AB00F904AF /* ViewController.h */,
+				631591781C9D58AB00F904AF /* ViewController.m */,
+				6315917A1C9D58AB00F904AF /* Main.storyboard */,
+				6315917D1C9D58AB00F904AF /* Assets.xcassets */,
+				6315917F1C9D58AB00F904AF /* LaunchScreen.storyboard */,
+				631591821C9D58AB00F904AF /* Info.plist */,
+				631591711C9D58AB00F904AF /* Supporting Files */,
+			);
+			path = DLSimpleChatRoom;
+			sourceTree = "<group>";
+		};
+		631591711C9D58AB00F904AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				631591721C9D58AB00F904AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6315918A1C9D58AB00F904AF /* DLSimpleChatRoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				6315918B1C9D58AB00F904AF /* DLSimpleChatRoomTests.m */,
+				6315918D1C9D58AB00F904AF /* Info.plist */,
+			);
+			path = DLSimpleChatRoomTests;
+			sourceTree = "<group>";
+		};
+		631591951C9D58AB00F904AF /* DLSimpleChatRoomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				631591961C9D58AB00F904AF /* DLSimpleChatRoomUITests.m */,
+				631591981C9D58AB00F904AF /* Info.plist */,
+			);
+			path = DLSimpleChatRoomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6315916D1C9D58AB00F904AF /* DLSimpleChatRoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6315919B1C9D58AB00F904AF /* Build configuration list for PBXNativeTarget "DLSimpleChatRoom" */;
+			buildPhases = (
+				6315916A1C9D58AB00F904AF /* Sources */,
+				6315916B1C9D58AB00F904AF /* Frameworks */,
+				6315916C1C9D58AB00F904AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLSimpleChatRoom;
+			productName = DLSimpleChatRoom;
+			productReference = 6315916E1C9D58AB00F904AF /* DLSimpleChatRoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		631591861C9D58AB00F904AF /* DLSimpleChatRoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6315919E1C9D58AB00F904AF /* Build configuration list for PBXNativeTarget "DLSimpleChatRoomTests" */;
+			buildPhases = (
+				631591831C9D58AB00F904AF /* Sources */,
+				631591841C9D58AB00F904AF /* Frameworks */,
+				631591851C9D58AB00F904AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				631591891C9D58AB00F904AF /* PBXTargetDependency */,
+			);
+			name = DLSimpleChatRoomTests;
+			productName = DLSimpleChatRoomTests;
+			productReference = 631591871C9D58AB00F904AF /* DLSimpleChatRoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		631591911C9D58AB00F904AF /* DLSimpleChatRoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631591A11C9D58AB00F904AF /* Build configuration list for PBXNativeTarget "DLSimpleChatRoomUITests" */;
+			buildPhases = (
+				6315918E1C9D58AB00F904AF /* Sources */,
+				6315918F1C9D58AB00F904AF /* Frameworks */,
+				631591901C9D58AB00F904AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				631591941C9D58AB00F904AF /* PBXTargetDependency */,
+			);
+			name = DLSimpleChatRoomUITests;
+			productName = DLSimpleChatRoomUITests;
+			productReference = 631591921C9D58AB00F904AF /* DLSimpleChatRoomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		631591661C9D58AB00F904AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DavidLee;
+				TargetAttributes = {
+					6315916D1C9D58AB00F904AF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					631591861C9D58AB00F904AF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6315916D1C9D58AB00F904AF;
+					};
+					631591911C9D58AB00F904AF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6315916D1C9D58AB00F904AF;
+					};
+				};
+			};
+			buildConfigurationList = 631591691C9D58AB00F904AF /* Build configuration list for PBXProject "DLSimpleChatRoom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 631591651C9D58AB00F904AF;
+			productRefGroup = 6315916F1C9D58AB00F904AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6315916D1C9D58AB00F904AF /* DLSimpleChatRoom */,
+				631591861C9D58AB00F904AF /* DLSimpleChatRoomTests */,
+				631591911C9D58AB00F904AF /* DLSimpleChatRoomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6315916C1C9D58AB00F904AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631591811C9D58AB00F904AF /* LaunchScreen.storyboard in Resources */,
+				6315917E1C9D58AB00F904AF /* Assets.xcassets in Resources */,
+				6315917C1C9D58AB00F904AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631591851C9D58AB00F904AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631591901C9D58AB00F904AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6315916A1C9D58AB00F904AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631591791C9D58AB00F904AF /* ViewController.m in Sources */,
+				631591761C9D58AB00F904AF /* AppDelegate.m in Sources */,
+				631591731C9D58AB00F904AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631591831C9D58AB00F904AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6315918C1C9D58AB00F904AF /* DLSimpleChatRoomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6315918E1C9D58AB00F904AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631591971C9D58AB00F904AF /* DLSimpleChatRoomUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		631591891C9D58AB00F904AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6315916D1C9D58AB00F904AF /* DLSimpleChatRoom */;
+			targetProxy = 631591881C9D58AB00F904AF /* PBXContainerItemProxy */;
+		};
+		631591941C9D58AB00F904AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6315916D1C9D58AB00F904AF /* DLSimpleChatRoom */;
+			targetProxy = 631591931C9D58AB00F904AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6315917A1C9D58AB00F904AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6315917B1C9D58AB00F904AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6315917F1C9D58AB00F904AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				631591801C9D58AB00F904AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		631591991C9D58AB00F904AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6315919A1C9D58AB00F904AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6315919C1C9D58AB00F904AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DLSimpleChatRoom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = david.com.cn.DLSimpleChatRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6315919D1C9D58AB00F904AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DLSimpleChatRoom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = david.com.cn.DLSimpleChatRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6315919F1C9D58AB00F904AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DLSimpleChatRoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = david.com.cn.DLSimpleChatRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DLSimpleChatRoom.app/DLSimpleChatRoom";
+			};
+			name = Debug;
+		};
+		631591A01C9D58AB00F904AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DLSimpleChatRoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = david.com.cn.DLSimpleChatRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DLSimpleChatRoom.app/DLSimpleChatRoom";
+			};
+			name = Release;
+		};
+		631591A21C9D58AB00F904AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DLSimpleChatRoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = david.com.cn.DLSimpleChatRoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DLSimpleChatRoom;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		631591A31C9D58AB00F904AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DLSimpleChatRoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = david.com.cn.DLSimpleChatRoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DLSimpleChatRoom;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		631591691C9D58AB00F904AF /* Build configuration list for PBXProject "DLSimpleChatRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631591991C9D58AB00F904AF /* Debug */,
+				6315919A1C9D58AB00F904AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6315919B1C9D58AB00F904AF /* Build configuration list for PBXNativeTarget "DLSimpleChatRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6315919C1C9D58AB00F904AF /* Debug */,
+				6315919D1C9D58AB00F904AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6315919E1C9D58AB00F904AF /* Build configuration list for PBXNativeTarget "DLSimpleChatRoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6315919F1C9D58AB00F904AF /* Debug */,
+				631591A01C9D58AB00F904AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		631591A11C9D58AB00F904AF /* Build configuration list for PBXNativeTarget "DLSimpleChatRoomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631591A21C9D58AB00F904AF /* Debug */,
+				631591A31C9D58AB00F904AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 631591661C9D58AB00F904AF /* Project object */;
+}
